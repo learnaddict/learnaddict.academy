@@ -1,6 +1,6 @@
 baseURL: "https://learnaddict.academy/"
 title: "LearnAddict Academy"
-paginate: 5
+paginate: 20
 theme: PaperMod
 
 enableRobotsTXT: true
