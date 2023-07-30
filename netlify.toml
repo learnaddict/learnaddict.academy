@@ -10,3 +10,11 @@ HUGO_VERSION = "0.111.3"
   to = "https://social.learnaddict.academy/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://learnaddict.academy/.well-known/webfinger*"
+  to = "https://social.learnaddict.academy/:splat"
+  status = 301
+  force = true
+
+
