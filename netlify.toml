@@ -18,3 +18,10 @@ HUGO_VERSION = "0.111.3"
   force = true
 
 
+[[redirects]]
+  from = "https://learnaddict.academy/.well-known/nodeinfo*"
+  to = "https://social.learnaddict.academy/:splat"
+  status = 301
+  force = true
+
+
