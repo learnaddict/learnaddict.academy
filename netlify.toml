@@ -6,20 +6,20 @@ command = "hugo --gc --minify"
 HUGO_VERSION = "0.111.3"
 
 [[redirects]]
-  from = "https://learnaddict.academy/.well-known/host-meta*"
+  from = "/.well-known/host-meta*"
   to = "https://social.learnaddict.academy/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://learnaddict.academy/.well-known/webfinger*"
+  from = "/.well-known/webfinger*"
   to = "https://social.learnaddict.academy/:splat"
   status = 301
   force = true
 
 
 [[redirects]]
-  from = "https://learnaddict.academy/.well-known/nodeinfo*"
+  from = "/.well-known/nodeinfo*"
   to = "https://social.learnaddict.academy/:splat"
   status = 301
   force = true
